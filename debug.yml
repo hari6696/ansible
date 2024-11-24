@@ -1,0 +1,7 @@
+---
+- name: debug for nginx ansible role
+  hosts: localhost
+  tasks:
+    - name: debug
+      debug:
+        msg: "nginx is installed"
